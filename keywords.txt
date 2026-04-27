@@ -1,0 +1,49 @@
+#######################################
+# Syntax Coloring Map for ESPFlexOTA
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+ESPFlexOTAClass	KEYWORD1
+OTAConfig	KEYWORD1
+OTAError	KEYWORD1
+OTAErrorCode	KEYWORD1
+OTASource	KEYWORD1
+OTAVersionFormat	KEYWORD1
+OTAEvent	KEYWORD1
+OTAEventType	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+loop	KEYWORD2
+end	KEYWORD2
+checkForUpdates	KEYWORD2
+downloadAndInstall	KEYWORD2
+rollback	KEYWORD2
+onProgress	KEYWORD2
+onStart	KEYWORD2
+onComplete	KEYWORD2
+onError	KEYWORD2
+onRollback	KEYWORD2
+isUpdating	KEYWORD2
+getLastError	KEYWORD2
+getCurrentVersion	KEYWORD2
+getLatestVersion	KEYWORD2
+getServerIP	KEYWORD2
+getServerPort	KEYWORD2
+getUpdateURL	KEYWORD2
+clearError	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+OTA	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+ESPFLEXOTA_VERSION	LITERAL1
+OTA_PLATFORM	LITERAL1
