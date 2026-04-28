@@ -146,7 +146,7 @@ void setup() {
 
     // ── Start OTA ──────────────────────────────────────────────────────────
     if (!OTA.begin(config)) {
-        Serial.println(F("OTA begin() failed: ") + OTA.getLastError().message);
+        Serial.printf("OTA begin() failed: %s\n", OTA.getLastError().message);
         return;
     }
 
